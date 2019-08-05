@@ -24,6 +24,7 @@ You need to add a profile for SSH PS Wrapper as below:
       "guid": "{4bd6e30c-4f35-4024-b74d-c377e1ff1b4f}",
       "historySize": 9001,
       "name": "SSH PS Wrapper",
+      "tabTitle": "SSH PS Wrapper",
       "padding": "0, 0, 0, 0",
       "snapOnInput": true,
       "startingDirectory": "%USERPROFILE%",
