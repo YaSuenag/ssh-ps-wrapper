@@ -130,7 +130,7 @@ if($port_number.Length -gt 0){
     $command += " -p " + $port_number
 }
 if($private_key_file.Length -gt 0){
-    $command += " -i " + $private_key_file
+    $command += " -i " + "'" + $private_key_file + "'"
 }
 $command += " " + $hostname
 
