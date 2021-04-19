@@ -14,7 +14,7 @@ For example, run following commands to add SSH PS Wrapper for all users.
 
 ```
 PS > mkdir "C:\ProgramData\Microsoft\Windows Terminal\Fragments\ssh-ps-wrapper"
-PS > cp C:\Path\To\ssh-ps-wrapper.ps1 "C:\ProgramData\Microsoft\Windows Terminal\Fragments\ssh-ps-wrapper"
+PS > cp C:\Path\To\fragments.json "C:\ProgramData\Microsoft\Windows Terminal\Fragments\ssh-ps-wrapper"
 ```
 
 Please see [Applications installed from the web](https://docs.microsoft.com/ja-jp/windows/terminal/json-fragment-extensions#applications-installed-from-the-web) in Microsoft Docs.
