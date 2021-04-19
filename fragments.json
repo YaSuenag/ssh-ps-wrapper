@@ -1,0 +1,8 @@
+{
+  "profiles": [
+    {
+      "name": "SSH PS Wrapper",
+      "commandline": "powershell.exe -Command C:\\Path\\To\\ssh-ps-wrapper.ps1"
+    }
+  ]
+}

@@ -9,25 +9,15 @@ Run `ssh-ps-wrapper.ps1`
 
 # How to use on [Windows Terminal](https://github.com/microsoft/terminal)
 
-You need to add a profile for SSH PS Wrapper as below:
+You can use [fragments.json](fragments.json) to add SSH PS Wrapper to your Windows Terminal.  
+For example, run following commands to add SSH PS Wrapper for all users.
 
 ```
-    {
-      "closeOnExit": true,
-      "colorScheme": "Campbell",
-      "commandline": "powershell.exe -Command C:\\Path\\To\\ssh-ps-wrapper.ps1",
-      "cursorColor": "#FFFFFF",
-      "cursorShape": "filledBox",
-      "fontFace": "Consolas",
-      "fontSize": 10,
-      "guid": "{4bd6e30c-4f35-4024-b74d-c377e1ff1b4f}",
-      "historySize": 9001,
-      "name": "SSH PS Wrapper",
-      "padding": "0, 0, 0, 0",
-      "snapOnInput": true,
-      "useAcrylic": false
-    }
+PS > mkdir "C:\ProgramData\Microsoft\Windows Terminal\Fragments\ssh-ps-wrapper"
+PS > cp C:\Path\To\ssh-ps-wrapper.ps1 "C:\ProgramData\Microsoft\Windows Terminal\Fragments\ssh-ps-wrapper"
 ```
+
+Please see [Applications installed from the web](https://docs.microsoft.com/ja-jp/windows/terminal/json-fragment-extensions#applications-installed-from-the-web) in Microsoft Docs.
 
 # License
 
